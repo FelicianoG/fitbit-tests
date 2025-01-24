@@ -1,0 +1,32 @@
+.background {
+  viewport-fill: white;
+}
+/* image {
+  width: 100%;
+  height: 100%;
+  x: -10;
+  y: 10;
+} */
+
+/* #myLabel {
+  position: absolute;
+  font-size: 50;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%;
+  fill: red;
+} */
+
+#dayLbl {
+  x: 50%;
+  y: 35%;
+  fill: green;
+}
+
+#hourLbl {
+  x: 50%;
+  y: 80%;
+  fill: green;
+}

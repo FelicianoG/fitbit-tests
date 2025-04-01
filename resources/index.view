@@ -1,17 +1,36 @@
 <svg class="background">
-
-  <!--line x1="50%" x2="50%"  y1="0%"  y2="100%" fill="black" stroke-width="2" /-->
-  <!--line x1="0"   x2="100%" y1="35%" y2="35%"  fill="black" stroke-width="2" /-->
-  <!--line x1="0"   x2="100%" y1="80%" y2="80%"  fill="black" stroke-width="2" /-->
-<!-- <image href="Saitama-manga-01.png" /> -->
-
-  <use href="#fitfont" id="hourLbl">
-    <use href="#fitfont-char"/>
-    <use href="#fitfont-char"/>
-    <use href="#fitfont-char"/>
-    <use href="#fitfont-char"/>
-    <use href="#fitfont-char"/>
-  </use>
   
-  <!-- <text id="myLabel" /> -->
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+  </defs>
+  
+  <image href="Saitama-manga-01.jpg" />
+
+  <svg id="caption">
+  
+    <svg id="hourElement">
+      <image/>
+      <image/>
+      <image/>
+      <image/>
+      <image/>
+    </svg>
+    
+    <svg id="dayElement">
+      <image/>
+      <image/>
+      <image/>
+    </svg>
+    
+    <svg id="monthElement">
+      <image/>
+      <image/>
+      <image/>
+      <image/>
+      <image/>
+      <image/>
+    </svg>
+
+  </svg>
+
 </svg>
